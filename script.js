@@ -16,9 +16,9 @@ function deleteText() {
 }
 
 
-function plusThree() {
-  const numberElement = document.querySelector("#zahl")
+function incrementCounter() {
+  const numberElement = document.querySelector("#counter")
   let num = parseInt(numberElement.textContent)
-  num = num + 3
+  num = num + 1
   numberElement.textContent = num
 }
