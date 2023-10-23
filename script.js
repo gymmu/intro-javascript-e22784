@@ -55,3 +55,12 @@ const newValue = outputValue + "\n" + inputValue
 
  outputElem.textContent = newValue
  }
+
+
+
+ function changecolor() {
+  const body = document.querySelector("body")
+ body.style.color = "pink"
+
+
+ }
