@@ -63,4 +63,10 @@ const newValue = outputValue + "\n" + inputValue
  body.style.color = "pink"
 
 
- }
+}
+
+function deleteImage() {
+  const elemToDeleteText = document.querySelector("#img-to-delete")
+  elemToDeleteText.style.display = "none"
+
+}
